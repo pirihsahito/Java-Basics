@@ -13,7 +13,7 @@ public class FindOutDay {
             case 5 -> System.out.println("Friday");
             case 6 -> System.out.println("Saturday");
             case 7 -> System.out.println("Sunday");
-            default -> System.out.println("kindly Enter the number Between 1-7");
+            default -> System.out.println("kindly Enter the number from 1-7");
         }
     }
 }
