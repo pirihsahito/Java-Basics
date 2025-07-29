@@ -1,26 +1,23 @@
-public class Conditionals {
+public class IfElseConditionals {
     public static void main(String[] args) {
 
         // For Relational Operators
         int age1 = 6; // Example 1
-        if(age1>18) {
+        if (age1 > 18) {
             System.out.println("Yes, you can derive...!");
-        }
-        else{
+        } else {
             System.out.println("No, you can not drive yet...!");
         }
         int age2 = 26; //Example 2
-        if(age2>18) {
+        if (age2 > 18) {
             System.out.println("Yes, you can derive...!");
-        }
-        else{
+        } else {
             System.out.println("No, you can not drive yet...!");
         } // else is optional. If executes without else statement...
         int age3 = 36; // Example 3
-        if(age3==18) {
+        if (age3 == 18) {
             System.out.println("Yes, you can derive...!");
-        }
-        else{
+        } else {
             System.out.println("No, you can not drive yet...!");
         }
         // For Logical Operators
@@ -28,20 +25,18 @@ public class Conditionals {
         boolean b1 = false;
         boolean b2 = false;
         boolean b3 = false;
-        if(b1 && b2 && b3){
+        if (b1 && b2 && b3) {
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("No");
         } // Evaluates to true when at least all conditions are true...
 
         System.out.println("For Logical OR");
         boolean a = true;
         boolean b = false;
-        if(a || b){
+        if (a || b) {
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("No");
         }  // Evaluates to true when at least 1 of conditions is true...
 
@@ -50,5 +45,14 @@ public class Conditionals {
         System.out.println(!a);
         System.out.print("Not(b) is ");
         System.out.println(!b);
-    } // Logical NOT is also known as Inverter. True becomes false and false become true.
+        // Logical NOT is also known as Inverter. True becomes false and false become true.
+
+        // Example
+        int a2 = 10;
+        if (a2 == 11) {
+            System.out.println("I am 11");
+        } else {
+            System.out.println("I am not 11");
+        }
+    }
 }
