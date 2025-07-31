@@ -1,0 +1,19 @@
+public class Loops {
+    public static void main(String[] args) {
+        System.out.println("Do While Loop in Java");
+
+        // Example 1
+        int b = 1;
+        do{
+            System.out.println(b);
+            b++;
+        } while(b<=50);
+
+        // Example 2
+        int c = 10;
+        do{
+            System.out.println(c);
+            b++;
+        } while(b<5);
+    }
+}
