@@ -10,8 +10,8 @@ public class MatricesAddition {
                           {0,0,0}};
 
         System.out.println("Addition of Two Matrices :");
-        for(int i = 0; i<matrix1.length; i++){
-            for(int j = 0; j<matrix1[i].length; j++){
+        for(int i = 0; i<matrix1.length; i++){ // Row number of times
+            for(int j = 0; j<matrix1[i].length; j++){ // Column number of times
                 result[i][j] = matrix1[i][j] + matrix2[i][j];
                 System.out.print(result[i][j] + " ");
             }
